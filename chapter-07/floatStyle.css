@@ -1,0 +1,63 @@
+.{
+    
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+.page{
+    margin: 0 auto;
+    width: 1100px;
+    border:1px solid black;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+.container{
+    background-color: lightgray;
+    overflow: hidden;
+    
+    border: 2px solid blue;
+}
+
+.menu{
+    height: 100px;
+    background-color: lightcoral;
+}
+.sidebar{
+    height: 300px;
+    width: 200px;
+    float: left;
+    /*margin: 0 auto;*/
+    background-color: lightgreen;
+}
+.content{
+    padding: 20px;
+    height: 500px;
+    width:650px;
+    float: left;
+    background-color: lightpink;
+}
+.footer{
+    overflow: hidden;
+    background-color: lightsalmon;
+    clear: both;
+    
+}
+.column{
+    float: left;
+    width: 31%;
+    margin: 20px 1.15%;
+    height: 160px;
+    background-color: #B2D6FF;
+}
+.article-image{
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px
+}
+p {
+    margin-bottom: 20px;
+  }
